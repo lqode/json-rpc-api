@@ -33,9 +33,21 @@ Parameters:
 I used Coin Cap as the coin data provider. Below is the API for it:
 https://docs.coincap.io/#61e708a8-8876-4fb2-a418-86f12f308978
 
+## Prequisites
+- Install MongoSB Community edition by following all the steps here
+https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x-tarball/
+
+- Follow steps in section "Run MongoDB Community Edition"
+- Run MongoDB
+```sh
+mongod --dbpath /usr/local/var/mongodb --logpath /usr/local/var/log/mongodb/mongo.log --fork
+```
+- Verify that MongoDB has started successfully.
+```sh
+ps aux | grep -v grep | grep mongod
+```
 
 ## Steps
-
 - Run the following command which will install all the packages and start the app at port 5000
 ```sh
 npm run build
