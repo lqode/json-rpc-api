@@ -34,7 +34,7 @@ I used Coin Cap as the coin data provider. Below is the API for it:
 https://docs.coincap.io/#61e708a8-8876-4fb2-a418-86f12f308978
 
 ## Prequisites
-- Install MongoSB Community edition by following all the steps here
+- Install MongoDB Community edition by following all the steps here
 https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x-tarball/
 
 - Follow steps in section "Run MongoDB Community Edition"
