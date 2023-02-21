@@ -48,7 +48,7 @@ ps aux | grep -v grep | grep mongod
 ```
 
 ## Steps
-- Run the following command which will install all the packages and start the app at port 5000
+- In src/, run the following command which will install all the packages and start the app at port 5000
 ```sh
 npm run build
 ```
